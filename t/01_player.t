@@ -19,6 +19,7 @@ isa_ok($player, 'Term::TtyRec::Player');
 
 tie *STDOUT, 'Tie::DevNull';
 $player->play;
+untie *STDOUT;
 ok 1, 'can play';
 
 

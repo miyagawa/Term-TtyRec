@@ -24,7 +24,7 @@ eval {
     $player->peek;
     alarm 0;
 };
-
+untie *STDOUT;
 ok $@, 'can peek';
 
 
