@@ -1,5 +1,9 @@
 Revision history for Perl extension Term::TtyRec.
 
+0.02
+	- improved document
+	- onto CPAN
+
 0.01  Thu Sep 27 00:18:11 2001
 	- original version; created by h2xs 1.19
 

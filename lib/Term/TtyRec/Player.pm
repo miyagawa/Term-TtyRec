@@ -101,14 +101,14 @@ constructs new Term::TtyRec::Player instance.
 
   $player->play();
 
-Plays recorded data to your terminal.
+Plays recorded data on your terminal.
 
 =item peek
 
   $player->peek();
 
-Plays live-recoded data to your terminal. Use this to peek someone
-else's terminal.
+Plays live-recoded data to your terminal. This method implements
+ttyplay -p option.
 
 =back
 
