@@ -2,7 +2,7 @@ package Term::TtyRec::Player;
 
 use strict;
 use vars qw($VERSION);
-$VERSION = '0.01';
+$VERSION = '0.03';
 
 use Time::HiRes qw(sleep);
 use Term::TtyRec;
@@ -14,7 +14,7 @@ sub new {
 
     unless ($io->can('read')) {
 	require Carp;
-	Carp::croak 'Usage: Term::TtyRec::Player->new($io)';
+	Carp::croak('Usage: Term::TtyRec::Player->new($io)');
     }
 
     bless { ttyrec => Term::TtyRec->new($io), %attr }, $class;

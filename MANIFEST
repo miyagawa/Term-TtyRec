@@ -1,6 +1,7 @@
 Changes
 MANIFEST
 Makefile.PL
+README
 bin/pttyplay
 lib/Term/TtyRec.pm
 lib/Term/TtyRec/Player.pm
